@@ -25,17 +25,23 @@ main {
 
 /* JUMBOTRON STYLES */
 
+.jumbotron h1 {
+	color: #eee;
+}
+
 .jumbotron {
-	background: #333 url('https://2zpt4dwruy922flhqyznip50-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/photo-1414788020357-3690cfdab669.jpg') no-repeat fixed center;
+	background: #333 url('https://2zpt4dwruy922flhqyznip50-wpengine.netdna-ssl.com/wp-content/uploads/2014/12/photo-1414788020357-3690cfdab669.jpg') no-repeat center;
 	background-size: cover;
 	width: 100%;
 	margin-top: -30px;
 	margin-bottom: -15px;
-	height: 600px
+	height: 660px;
+	padding-top: 150px;
 }
 
 .jumbotron p {
 	text-align: center;
+	color: #eee;
 }
 
 .learn-more-btn,
